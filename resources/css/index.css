@@ -1,1 +1,89 @@
+@font-face {
+    font-family: workSans;
+    src: url('C:/Users/Maria Virginia/OneDrive/Escritorio/Development Folder/CapstoneAcademy/resources/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf');
+}
+
+body{
+    font-family: workSans;
+    background-color: white;
+    margin: auto;
+    color: #5b5c62;
+}
+
+#headercontainer {
+    display: inline-flex;
+    box-sizing: border-box;
+    height: 64px;
+    width: 100%;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 24px;
+    width: auto;
+    height: 60px;
+    padding-top: 10px;
+}
+
+#titulo{
+    font-size: 2rem;
+    padding-top: 5px;
+}
+
+.colmar{
+    font-weight: bolder;
+    color: black;
+}
+
+.nav-items {
+    margin-left: auto;
+    position: relative;
+    right: 24px;
+    font-size: 1.25rem;
+    color: #5b5c62;
+}
+
+.nav-items a{
+    color: #5b5c62;
+    text-decoration: none;
+    
+}
+
+.item-margin{
+    margin-right: 16px;
+}
+
+#container1 {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    background-color: #D9DBE2;
+    align-items: center;
+}
+
+#banner-img {
+    margin: 32px 24px;
+    width: 60%;
+    height: auto;
+}
+
+#banner-text {
+    width: 40%;
+    height: auto;
+}
+
+#start-button {
+    background-color: #5b5c62;
+    color: white;
+    width: 270px;
+    height: 36px;
+    text-align: center;
+
+}
+
+#start-button p {
+    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 
