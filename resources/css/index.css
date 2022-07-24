@@ -1,10 +1,11 @@
 @font-face {
     font-family: workSans;
     src: url('C:/Users/Maria Virginia/OneDrive/Escritorio/Development Folder/CapstoneAcademy/resources/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf');
+    src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap')
 }
 
 body{
-    font-family: workSans;
+    font-family: workSans ;
     background-color: white;
     margin: auto;
     color: #5b5c62;
