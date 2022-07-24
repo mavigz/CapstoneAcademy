@@ -191,6 +191,28 @@ body{
 .cont3-flex-items{
     display: flex;
     margin: 0 72px 32px 72px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.cont3-child{
+    background-color: white;
+    margin: 32px;
+    transition: width 2s ease-in 1s, height 2s ease-in 1s, background-color 0.70s ease-in-out, color 0.70s ease-in-out;
+}
+
+.cont3-child:hover {
+    max-width: 40%;
+    max-height: 40%;
+    background-color: #5b5c62;
+    color: white;
+}
+
+.cont3-child img {
+    width: 100%;
+    overflow: hidden;
+
 }
 
 
