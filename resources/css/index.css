@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: workSans ;
+    font-family: workSans, "Work Sans", sans-serif;
     background-color: white;
     margin: auto;
     color: #5b5c62;
